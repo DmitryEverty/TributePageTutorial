@@ -1,4 +1,22 @@
 body {
 	background-color: rgb(214, 214, 214);
+}
+
+#main {
 	text-align: center;
+}
+#img-div {
+	background-color: rgb(56, 56, 56);
+}
+#image {
+	display: block;
+	margin: auto;
+	width: 700px;
+}
+#img-caption {
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+}
+#facts {
+	align-items: flex-start;
 }
