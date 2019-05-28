@@ -1,21 +1,36 @@
 body {
 	background-color: rgb(214, 214, 214);
 }
-
+h1 {
+	font-size: 60px;
+	color: rgb(56, 56, 56);
+}
 #main {
 	text-align: center;
 }
+#tribute {
+	color: rgb(61, 61, 61);
+	font-size: 20px;
+}
 #img-div {
-	background-color: rgb(56, 56, 56);
+	text-align: center;
+	display: inline-block;
+	width: 700px;
 }
 #image {
 	display: block;
 	margin: auto;
 	width: 700px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(155, 155, 155);
+	box-shadow: 0px 45px 64px -38px rgba(0, 0, 0, 0.47);
 }
 #img-caption {
-	color: rgb(255, 255, 255);
+	color: rgb(29, 29, 29);
 	font-family: sans-serif;
+	font-size: 12px;
 }
 #facts {
 	align-items: flex-start;
